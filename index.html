@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weblocジェネレーター</title>
+  </head>
+  <body>
+    <h1>weblocジェネレーター</h1>
+    <a href="/en">to English page</a>
+    <form action="">
+      <label for="url">URL</label>
+      <input type="url" id="url" name="url" required />
+      <button type="submit" id="submit">生成</button>
+    </form>
+    <h2>説明</h2>
+    <p>URLを入力して生成ボタンを押すと、weblocファイルがダウンロードされます。</p>
+    <p>weblocファイルは<b>ファイルアプリ</b>で見るとURLで指定したURLのウェブページが表示されます。</p>
+    <h2>注意</h2>
+    <p>作成されたファイル、このサイトは自己責任で使用してください。</p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
